@@ -13,5 +13,16 @@ symptoms disrupt daily mobility and increase the risk of falls.
 - Currently, management relies on a combination of pharmacological treatments like Levodopa, surgical interventions such as Deep Brain Stimulation (DBS), and holistic care including nutrition and physiotherapy.
 - However, accurate tracking of these motor symptoms is crucial for effective management
 
+## Dataset
+- This balanced cohort of 166 participants includes 93 Parkinson’s patients and 73 healthy controls, age-matched at a mean of 66.3 years to strictly isolate pathology from aging. The dataset reflects the Hoehn & Yahr stages (1.5–3) and UPDRS scores
+- This study quantifies gait dynamics using Vertical Ground Reaction Force (VGRF) sensors. The data was collected using specialized insoles with eight sensors located under each foot, recording force measures at 100 samples per second
+
 ## Hypothesis 
 Gait kinematic parameters (specifically gait speed and Timed Up and Go duration), when integrated with demographic factors (Age, BMI), serve as robust, non-invasive biomarkers for classifying the severity of Parkinson's Disease(Hoehn & Yahr stages)
+
+## Key Clinical Variables
+- The Hoehn & Yahr Scale provides a staging system for disease progression, ranging from 1 (mild, unilateral) to 5 (wheelchair-bound); our dataset largely focuses on early-to-moderate stages.
+- We also analyze the Unified Parkinson’s Disease Rating Scale (UPDRS), where higher scores indicate greater disability.
+- Functional mobility is captured via the Timed Up and Go (TUAG) test, measuring the time to stand, walk, and sit, where times exceeding 12 seconds suggest a high fall risk.
+- Gait Speed serves as a vital functional vital sign, often reduced significantly in the PD cohort.
+
